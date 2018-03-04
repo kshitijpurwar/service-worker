@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Service Worker Demo</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+    <style>
+    *{
+        font-family: 'Noto Sans', sans-serif;
+        text-align: center;
+    }
+    img{
+        max-width: 100%;
+        margin: 30px 0;
+    }
+    .image-container{
+        max-width: 720px;
+        margin: auto;
+    }
+    .image-container h3{
+        text-decoration: underline;
+    }
+    </style>
+</head>
+<body>
+    <h1>Service Worker demo</h1>
+    <hr>
+    <div class="image-container">
+        <img src="./images/cliff.jpg">
+        <h3>This is Cliff</h3>
+    </div>
+
+    <div class="image-container">
+        <img src="./images/coast.jpg">
+        <h3>This is Coast</h3>
+    </div>
+
+    <div class="image-container">
+        <img src="./images/shoreline.jpg">
+        <h3>This is Shoreline</h3>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
